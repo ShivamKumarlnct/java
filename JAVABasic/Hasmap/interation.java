@@ -12,10 +12,15 @@ public class interation {
         hm.put("nepal", 1090);
         hm.put("korea", 16800);
 
-        System.out.println(hm);
 
         // iteration
-        
+        Set<String>keys=hm.keySet();
+        System.out.println(keys);
+        for(String k:keys){
+            System.out.println("keys = "+k+" value = "+hm.get(k));
+        }
+
+
 
     }
     
