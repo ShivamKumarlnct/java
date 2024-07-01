@@ -14,8 +14,8 @@ public class HashImplementation {
             }
         }
 
-        private int n; // number of elements
-        private int N; // number of buckets
+        private int n; 
+        private int N; 
         private LinkedList<Node> buckets[];
 
         @SuppressWarnings("unchecked")
@@ -89,6 +89,8 @@ public class HashImplementation {
             }
             return keys;
         }
+
+        
     }
 
     public static void main(String args[]) {
