@@ -4,9 +4,7 @@ import java.util.*;
 
 public class anagram {
     public static boolean anagram(String s, String t) {
-        // if (s.length() != t.length()) {
-        //     return false;
-        // }
+       
 
         HashMap<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
