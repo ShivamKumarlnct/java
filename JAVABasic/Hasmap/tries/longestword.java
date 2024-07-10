@@ -11,6 +11,7 @@ public class longestword {
             }
         }
     }
+    
     public static Node root=new Node();
    
     public static void insert(String words) {
