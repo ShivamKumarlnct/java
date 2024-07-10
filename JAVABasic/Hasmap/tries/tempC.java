@@ -1,3 +1,6 @@
+  package Hasmap.tries;
+  import java.util.*;
+  public class tempC {
   static class Node{
         Node children[]=new Node[26];
         boolean eow=false;
@@ -32,3 +35,4 @@
         }
         return curr.eow = true;
     }
+}

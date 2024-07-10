@@ -1,4 +1,4 @@
-package 
+package Hasmap.tries;
 import java.util.*;
 
 public class tries {
