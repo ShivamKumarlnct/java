@@ -1,0 +1,9 @@
+class A{
+    A()
+}
+public class constructor {
+    public static void main(String args[]){
+
+    }
+    
+}
